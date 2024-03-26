@@ -4,10 +4,9 @@
     "manifest_version": 3,
     "description": "Sample Chrome Extension",
     "content_scripts": [{
-      "matches": ["https://www.google.com/*", "https://www.dlsite.com/*"],
+      "matches": ["https://www.dlsite.com/*"],
       "js": [
-        "okikae.json"
-        ,"content.js"
+        "content.js"
       ]
 
     }]
